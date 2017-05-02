@@ -1,0 +1,7 @@
+# Node stuff
+node_modules
+.log
+
+# Other stuff
+css
+/css/**/*.css
