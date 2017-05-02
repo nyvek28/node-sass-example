@@ -1,35 +1,35 @@
-$light-color: #fbffc2;
 $dark-color: #bf2222;
+$light-color: #fbffc2;
 
+$body-background-color: $light-color;
+$headers-text-color: #000;
 $kid-background-color: $dark-color;
 $kid-text-color: $light-color;
-$headers-text-color: #000;
-$body-background-color: $light-color;
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: $body-background-color;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-top: 100px;
 }
 
 h1, h2, p {
-  text-align: center;
   color: $headers-text-color;
+  text-align: center;
 }
 
 .the-dad {
   display: flex;
-  max-width: 900px;
   margin: 60px auto;
+  max-width: 900px;
 
   .the-kids {
-    width: 100%;
-    height: 120px;
+    align-items: center;
     background-color: $kid-background-color;
     color: $kid-text-color;
-    margin: 0 10px;
     display: flex;
+    height: 120px;
     justify-content: center;
-    align-items: center;
+    margin: 0 10px;
+    width: 100%;
   }
 }
